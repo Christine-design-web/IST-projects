@@ -1,0 +1,19 @@
+1.select author_fname, author_lname, count(released_year) from books.books group by author_fname;
+
+2.select concat(substring(title, 1, 10), '...'), author_fname,author_lname from books.books;
+
+3.select * from books.books where pages=(select max(pages) from books.books);
+
+4.select  title,released_year from books.books where released_year=(select min(released_year) from books.books);
+
+5.select author_fname, author_lname, count(released_year) from books.books group by author_fname;
+
+6.select sum(stock_quantity) from books.books;
+
+7.select * from books.books where title like '%stor%';
+
+8.select replace(title, 'th', 'mm') from books.books;
+
+9.select * from books.books order by released_year desc;
+
+10.select * from books.books where book_id in(5,15);

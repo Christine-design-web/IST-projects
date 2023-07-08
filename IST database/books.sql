@@ -1,0 +1,1 @@
+SELECT author_fname, author_lname, COUNT(*) FROM books.books GROUP by author_fname;

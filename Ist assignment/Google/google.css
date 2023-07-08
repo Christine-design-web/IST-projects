@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-size: cover;
+  background: linear-gradient(hsla(0,0%,0%,0.5),hsla(0,0%,0%,0.5)),url(./sunset.jpg)
+
+}
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+.header a{
+  margin-right: 20px;
+  color:white;
+  font-size: 15px;
+  text-decoration: inherit;
+}
+.header a:hover{
+  text-decoration: underline;
+
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 15px;
+  color: white;
+}
+
+
+.header_right .header_apps{
+  margin-right: 20px;
+  
+  
+}
+.mainbody{
+  flex: 1;
+  display: flex;
+  margin-top: 12px;
+  flex-direction: column;
+}
+
+.mainbody img{
+  object-fit: contain;
+  height: 200px;
+}
+.material-symbols-outlined{
+  margin-left: 10px;
+}
+/* .search{
+  background-color: white;
+} */
+
+.search_input{
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  height: 30px;
+  padding: 10px 20px;
+  width: 75vh;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 560px;
+  border-radius: 999px;
+  background-color: white;
+}
+
+.search_input input{
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+
+}
+.search_input .material-icons{
+  color: blue;
+
+}
+/* .search_buttons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+.search_buttons button{
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+} */
+.apps_logo{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

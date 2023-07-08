@@ -1,0 +1,1 @@
+select * from series join reviews on series.id=reviews.series_id join reviewers on reviews.reviewer_id=reviewers.id;

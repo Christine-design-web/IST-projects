@@ -1,0 +1,12 @@
+ <section class="about">
+        <div class="main">
+            <img  src="./assets/Snapchat-1684659583.jpg">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Designer</span></h5>
+                <p>
+                    I am a front-end web developer. I can provide clean code and pixel perfect design. I also do graphics Design and UI/UX Design. I also make the website more and more interactive with web animations. I can provide clean code and pixel perfect design.
+                </p>
+                <button type="button">Let's Talk</button>
+            </div>
+        </div>
